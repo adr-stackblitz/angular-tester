@@ -1,0 +1,14 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+
+<hr />
+Decryption <br /><br />
+<input
+  class="input"
+  type="text"
+  placeholder="data to decrypt"
+  [(ngModel)]="strrr"
+/><br /><br />
+<input type="button" value="Decrypt" (click)="base64Descode()" />&nbsp;
+
+{{ parsed }}
