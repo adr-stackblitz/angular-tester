@@ -12,6 +12,8 @@ export class AppComponent {
   strrr = '';
   parsed = '';
 
+  constructor(private http: HttpClient) {}
+
   base64Descode() {
     if (!this.strrr.length) {
       return;
